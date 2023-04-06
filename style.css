@@ -12,7 +12,7 @@ html, body {
   }
 
   #score-container {
-    background-color: aquamarine;
+    background-color: #1E88E5;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,14 +40,14 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: FFC107;
     grid-column: 2/3;
     grid-row: 2/3;
   }
 
   .hands {
     height: 100px;
-    background-color: #b8937a;
+    background-color: #004D40;
     display: flex;
     justify-content: space-between;
     align-items: center;
