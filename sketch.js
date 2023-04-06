@@ -119,7 +119,7 @@ function draw() {
   background('#b1d1fc');
   for (let i = 0; i < numSegments - 1; i++) {
     line(xCor[i], yCor[i], xCor[i + 1], yCor[i + 1]);
-    stroke('#c1f80a');
+    stroke('#D81B60');
   }
   updateSnakeCoordinates();
   updateHandContainer();
@@ -272,4 +272,3 @@ function sendWristCommand(command) {
   }
   console.log(direction);
 }
-
